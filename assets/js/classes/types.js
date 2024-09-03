@@ -8,7 +8,6 @@ class Leon extends Animal {
     }
 
     Rugir() {
-        console.log(this.getSonido());
         audioPlayer.src = `assets/sounds/${this.getSonido()}`; "assets/sounds/" + this.getSonido()
         audioPlayer.play();
     }
