@@ -30,7 +30,7 @@ const reloadTable = () => {
   });
   document
     .querySelectorAll(".card-body button")
-    .forEach((b) => b.addEventListener("click", activarHabiblidad));
+  // .forEach((b) => b.addEventListener("click", activarHabiblidad));
 };
 
 window.playSound = (nombre) => {
@@ -80,7 +80,7 @@ document.getElementById("animal").addEventListener("change", async (e) => {
   const animales = await animalesData.getData();
   const animalObject = animales.find((a) => a.name == animalSelected);
   console.log({ animalObject })
-  imagenSrc = `/assets/img/${animalObject.image}`;
+  imagenSrc = `assets/img/${animalObject.image}`;
   console.log({ imagenSrc });
   sonido = animalObject.sound;
   const preview = document.getElementById("bg-svg");
