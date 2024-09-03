@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url('.././img/fondo.jpg');
+  background-image: url('/animal-researching/assets/img/fondo.jpg');
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ textarea {
 }
 
 #bg-svg {
-  background-image: url('.././img/lion.svg');
+  background-image: url('/animal-researching/assets/img/lion.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
